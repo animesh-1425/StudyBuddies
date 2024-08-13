@@ -19,6 +19,7 @@
     "@zegocloud/zego-uikit-prebuilt": "^1.8.10",
     "axios": "^1.5.0",
     "bootstrap": "^5.3.1",
+    "dotenv": "^16.1.4",
     "firebase": "^10.3.0",
     "monaco-editor": "^0.41.0",
     "monaco-editor-webpack-plugin": "^7.1.0",

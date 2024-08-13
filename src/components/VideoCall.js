@@ -28,8 +28,9 @@ export const VideoCall=()=>{
   let myMeeting = async (element) => {
 
  // generate Kit Token
- const appID = 546229457;
- const serverSecret = "6958abfa6099a2b19d7a54f6d1e20be1";
+const appID = parseInt(process.env.REACT_APP_API_KEY);
+const serverSecret = `${process.env.REACT_APP_SECRET}`;
+
  const kitToken =  ZegoUIKitPrebuilt.generateKitTokenForTest(appID, serverSecret, roomID,  randomID(5),  randomID(5));
 
  // Create instance object from Kit Token.
