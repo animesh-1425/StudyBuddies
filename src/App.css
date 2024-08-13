@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kenia&family=League+Spartan:wght@100&family=Lobster&family=Montserrat&family=Orbitron&family=Poppins:wght@100;200;300&family=Roboto&family=Rubik&family=Rubik+Mono+One&family=Russo+One&family=Staatliches&family=VT323&family=Vina+Sans&display=swap');
+.logbutton{
+  
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: #f0425f;
+  color: white;
+  font-weight: 500;
+  border-radius: 25px ;
+  text-decoration: none;
+}
+
+
+.main1{
+    margin-top: 40px;
+  }
+  .row{
+    
+    margin-top: 20px;
+    padding: 20px;
+    max-width: auto;
+    position: relative;
+  }
+  .card{
+    
+    margin-top: 20px;
+    width:100%;
+  
+  }
+ 
+  .welcome{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .create-form{
+    width:30%;
+    position: absolute;
+    z-index: 2;
+    display: none;
+    top:15%;
+    background-color: rgb(190, 190, 244);
+  }
+  .card-body{
+    background-color: azure;
+    padding: 0;
+  }
+  .color{
+    background-color: red;
+    height:50px;
+    margin-top:0;
+    border-radius: 7px;
+    margin: 5px;
+  }
+  .content{
+    padding:10px;
+  }
+  .meet{
+    width: 100%;
+    border-radius: 7px;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    border: 0;
+  }
+  h1,
+  p {
+    font-family: Lato;
+    
+  }
+  
+  
+  
+  img {
+    width: 300px;
+    margin: 10px;
+  }
+  
+  
+  
+  
+  
+  @media screen and (max-width:912px){
+    .create-form{
+        width: 100%;
+    }
+    
+  }
+  
+    
+  
+  
+  .hidden {
+    display: none;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+
+
+

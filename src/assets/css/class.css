@@ -1,0 +1,309 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kenia&family=League+Spartan:wght@100&family=Lobster&family=Montserrat&family=Orbitron&family=Playfair+Display&family=Poppins:wght@100;200;300&family=Roboto&family=Rubik&family=Rubik+Doodle+Shadow&family=Rubik+Mono+One&family=Russo+One&family=Staatliches&family=VT323&display=swap');
+.main1{
+    margin-top: 40px;
+    background-color:  #87CEFA;
+  }
+  .row{
+    
+    margin-top: 20px;
+    padding: 20px;
+    max-width: auto;
+    position: relative;
+  }
+  .card{
+    
+    margin-top: 20px;
+    width:100%;
+  
+  }
+ 
+  .welcome{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .create-form{
+    width:30%;
+    position: absolute;
+    z-index: 2;
+    display: none;
+    top:15%;
+    background-color: rgb(128, 128, 248);
+  }
+  .card-body{
+    background-color: azure;
+    padding: 0;
+  }
+
+  .content{
+    padding:10px;
+  }
+  .meet{
+    width:80%;
+    border-radius: 7px;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    border: 0;
+  }
+  h1,
+  p {
+    font-family:'Times New Roman', Times, serif ;
+  }
+  
+  
+  
+  img {
+    width: 300px;
+    margin: 10px;
+  }
+  /* Styling the button */
+ 
+.button-29 {
+  align-items: center;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  cursor: pointer;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  padding-left: 16px;
+  padding-right: 16px;  
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  font-size: 18px;
+  color: white;
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+  
+.classbutton{
+  border: none;
+  outline: none;
+  padding: 3px;
+  font-family: poppins;
+  color: white;
+  border-radius: 5px;
+}
+
+  
+  p{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-family:'Rubik', sans-serif;;
+  }
+  h4{
+    font-family: "JetBrains Mono",monospace;
+    font-weight: 800;
+  }
+  /*input button for uplaod*/
+ 
+
+.styled-file-input {
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border-radius: 8px;
+  border: none;
+  outline: none; /* Remove default outline */
+}
+
+
+
+
+.styled-file-input::-webkit-file-upload-button {
+  color: white;
+  background-color: #f0425f;
+  font-weight: 500;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  padding: 5px;
+}
+.styled-file-input::-webkit-file-upload-button:hover {
+  color: #f0425f;
+  background-color: white;
+}
+
+
+
+  /* Getting link animation */
+  .wrapper {
+    width: 200px;
+    height: 60px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .circle {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #fff;
+    left: 15%;
+    transform-origin: 50%;
+    animation: circle7124 .5s alternate infinite ease;
+  }
+  
+  @keyframes circle7124 {
+    0% {
+      top: 60px;
+      height: 5px;
+      border-radius: 50px 50px 25px 25px;
+      transform: scaleX(1.7);
+    }
+  
+    40% {
+      height: 20px;
+      border-radius: 50%;
+      transform: scaleX(1);
+    }
+  
+    100% {
+      top: 0%;
+    }
+  }
+  
+  .circle:nth-child(2) {
+    left: 45%;
+    animation-delay: .2s;
+  }
+  
+  .circle:nth-child(3) {
+    left: auto;
+    right: 15%;
+    animation-delay: .3s;
+  }
+  
+  .shadow {
+    width: 20px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.9);
+    position: absolute;
+    top: 62px;
+    transform-origin: 50%;
+    z-index: -1;
+    left: 15%;
+    filter: blur(1px);
+    animation: shadow046 .5s alternate infinite ease;
+  }
+  
+  @keyframes shadow046 {
+    0% {
+      transform: scaleX(1.5);
+    }
+  
+    40% {
+      transform: scaleX(1);
+      opacity: .7;
+    }
+  
+    100% {
+      transform: scaleX(.2);
+      opacity: .4;
+    }
+  }
+  
+  .shadow:nth-child(4) {
+    left: 45%;
+    animation-delay: .2s
+  }
+  
+  .shadow:nth-child(5) {
+    left: auto;
+    right: 15%;
+    animation-delay: .3s;
+  }
+  
+  /* Getting link animation end*/
+
+  /*upload button*/
+  #upload {
+    position: relative;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1em 2.5em;
+    display: inline-block;
+    border-radius: 6em;
+    transition: all .2s;
+    border: none;
+    font-family: inherit;
+    font-weight: 500;
+    color: black;
+    background-color: white;
+   }
+   
+   #upload:hover {
+    transform: translateY(-3px);
+    background: linear-gradient(83.2deg,  rgb(208, 179, 251) 10.8%, rgb(132, 124, 237) 94.3%);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    color: white;
+   }
+   
+   #upload:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+   }
+   
+   #upload::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+   }
+   
+   #upload::after {
+    background-color: #ffffff;
+   }
+   
+   #upload:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+   }
+  
+  @media screen and (max-width:912px){
+    .create-form{
+        width: 100%;
+    }
+    
+  }
+  
+  
+  .hidden {
+    display: none;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  
